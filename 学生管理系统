@@ -1,0 +1,67 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+typedef struct student
+{
+    char stuid[16];
+    char name[16];
+    int num;
+    struct student* next;
+}Stu;
+
+Stu* students;
+char* stuInfo="test.txt";
+int input = 0;
+char tempInput[64];
+char tempName[64];
+char tempStuid[64];
+int tempNum = 0;
+
+
+
+void view(void)
+{
+
+    while (1)
+    {
+        
+        printf("       学生管理系统\n");
+        printf("****************************\n");
+        printf("1.增加学生信息\n");
+        printf("2.删除学生信息\n");
+        printf("3.改变学生信息\n");
+        printf("4.查询学生信息\n");
+        printf("5.展示学生信息\n");
+        printf("6.退出\n");
+        printf("****************************\n");
+        scanf("%s", tempInput);
+        input = checkInput(tempInput,1,6);
+        switch (input)
+        {
+        case 1:
+            printf("请输入学号,姓名,数字(例如:20151111 张三 0)数据以空格隔开:");
+            break;
+        case 2:
+            printf("请输入学号:");
+            break;
+        case 3:
+            printf("请输入学号:");
+            break;
+        case 4:
+            printf("请输入学号:");   
+            break;
+        case 5:
+            showInfo();
+            break;
+        case 6:
+            return;
+            break;
+        default:
+            printf("输入错误!按任意键返回\n");
+            getchar();getchar();
+            break;
+        }
+    }
+
+}
