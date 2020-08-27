@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 800px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    width: 1000px;
+    margin: auto;
+    margin-left: -500px;
+    height: 60px;
+    background-color: white;
+    color: blue;
+    position: fixed;
+    left: 50%;
+    top: 10px;
+}
+.body {
+    margin-top: 80px;
+    height: 5700px;
+    background-color: rgb(74, 117, 197);
+}
+.tb {
+    height: 60px;
+    background-color: rgb(69, 11, 163);
+}
+.guding {
+    width: 50px;
+    height: 60px;
+    background-color: rgb(134, 214, 208);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: fixed;
+    border-radius: 25px;
+    top: 50%;
+    right: 20px;
+}
+.guding a:hover {
+    color: rgb(184, 65, 81);
+}
+.ho {
+    height: 56px;
+    width: auto;
+    border-radius: 0 25px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.logo {
+    float: left;
+    height: 60px;
+    background-color: rgb(54, 41, 168);
+}
+.nav {
+    float: left;
+    padding: 0 30px;
+    background-color: rgb(54, 41, 168);
+    border-radius: 0 0 0 25px;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    display: block;
+    height: 60px;
+    padding: 0 30px;
+    line-height: 60px;
+    font-size: 20px;
+    color: rgb(237,125,49);
+}
+.nav ul li a:hover {
+    border-bottom: 3px solid  rgb(149, 207, 203);
+    color: rgb(149, 207, 203);
+}
+.end {
+    float: left;
+    height: 60px;
+    width: 122px;
+    background-color: rgb(54, 41, 168);
+}
+.b1j1t {
+    background-color: teal;
+    height: 60px;
+}
+.tx {
+    height: 200px;
+    width: auto;
+    border-radius: 0 30px;
+}
+.jj {
+    font-size: 20px;
+    height: auto;
+    color: rgb(187, 223, 120);
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+.ak {
+    width: 650px;
+    height: 250px;
+}
+.h1 {
+    height: 250px;
+    width: auto;
+    border-radius: 0 25px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.jiange {
+    width: 800px;
+    height: 20px;
+    background-color: rgb(202, 60, 60);
+}
+.wb {
+    height: 260px;
+}
+.g1 {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: rgb(52, 96, 163);
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.g2 {
+    height: 80px;
+    width: auto;
+    font-size: 30px;
+    padding: 0px 90px;
+    color: rgb(172, 192, 202);
+    line-height: 80px;
+}
+.g3 {
+    height: 120px;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 90px;
+}
+.g3 ul li a {
+    color: skyblue;
+    
+}
+.g3 ul li a:hover {
+    border-bottom: 3px solid  rgb(211, 131, 177);
+    color:  rgb(211, 131, 177);
+}
